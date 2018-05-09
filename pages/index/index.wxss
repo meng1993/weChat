@@ -1,0 +1,86 @@
+/**index.wxss**/
+.slide-image{width: 100%;height: 100%}
+.btn_title{width: 750rpx;height: 150rpx;background-color: #fff;display: flex;}
+.btn_title .img_wen{flex: 1;text-align: center;line-height: 150rpx;} 
+.btn_title .img_wen .icon{position:relative;width:40%;height: 100%;float: left}
+.btn_title .img_wen .icon .icon_img{position:absolute;display:inline-block;width:50rpx;height: 50rpx;top: 50%;margin-top: -25rpx;right:10rpx;}
+.btn_title .img_wen .wenzi{width:40%;height: 100%;float: left}
+
+.light_line{width: 750rpx;height: 30rpx;background-color: lightgray;}
+
+/*店外看版*/
+.content{
+  width: 750rpx;
+  height: auto;
+  background-color: #fff;
+}
+.content .content_title{
+  width: 750rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  color: #54bcb5;
+  /* padding-left: 30rpx; */
+  text-indent: 30rpx;
+}
+.content_neirong .neirong_title{
+  width: 750rpx;
+  height: 150rpx;
+}
+.content_neirong .neirong_title .czy_img{
+  /* display: inline-block; */
+  float: left;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+}
+.content_neirong .neirong_title .czy_title{
+  float: left;
+  height: 100%;
+  text-indent: 30rpx;
+}
+.content_neirong .neirong_title .czy_title .title_name{
+  height: 50%;
+  line-height: 100rpx;
+  color: black;
+}
+.content_neirong .neirong_title .czy_title .title_time{
+  height: 50%;
+  line-height: 70rpx;
+  color: lightgray;
+  font-size: 30rpx;
+}
+.content_neirong .neirong_title .shop_cart{
+  position: relative;
+  float: right;
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 50rpx;
+  margin-right: 30rpx; 
+}
+.content_neirong .neirong_title .shop_cart .shop_img{ 
+  width: 50rpx;
+  height: 50rpx;
+}
+.content_neirong .neirong_title .shop_cart .shop_num{ 
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  background-color: red;
+  color: #fff;
+  top:0;
+  right: 0;
+  font-size: 15rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20rpx;
+}
+.content_neirong .neirong_content{
+  width: 750rpx;
+  height: 500rpx;
+}
+.content_neirong .neirong_content .content_img{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index",
+    
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "店外 · 看版",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "position":"left"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "看版",
+        "iconPath": "./image/look_board.png",
+        "selectedIconPath":"./image/look_board2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "货架",
+        "iconPath": "./image/billing.png",
+        "selectedIconPath": "./image/billing2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./image/my.png",
+        "selectedIconPath": "./image/my2.png"
+      }
+    ],
+    "color": "#54bcb5",
+    "selectedColor": "#54bcb5",
+    "backgroundColor": "#fff",
+    "borderStyle": "black"
+  }
+}

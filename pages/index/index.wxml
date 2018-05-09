@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<swiper class='jj' indicator-dots="{{indicatorDots}}"  
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" 
+        circular="{{circular}}">  
+      <block wx:for="{{imgUrls}}">  
+        <swiper-item>  
+           <navigator url="{{item.link}}" hover-class="navigator-hover">  
+            <image src="{{item.url}}" class="slide-image" mode="widthFix"/>  
+           </navigator>   
+        </swiper-item>
+      </block>  
+</swiper>
+<view class='btn_title'>
+  <view class='img_wen'>
+    <view class='icon'>
+      <image class='icon_img' src='/image/ainquiry_button.png'></image>
+    </view>
+    <view class='wenzi'>询价</view>
+  </view>
+  <view class='img_wen'>
+    <view class='icon'>
+      <image class='icon_img' src='/image/aorder_sale.png'></image>
+    </view>
+    <view class='wenzi'>订单</view>
+  </view>
+  <view class='img_wen'>
+    <view class='icon'>
+      <image class='icon_img' src='/image/ainfo_title.png'></image>
+    </view>
+    <view class='wenzi'>信息</view>
+  </view>
+</view>  
+<view class='light_line'></view>
+<!--下边关注店铺部分开始-->
+<view class='content'>
+  <view class='content_title'>店外看版</view>
+  <view class='content_neirong'>
+    <view class='neirong_title'>
+      <image class='czy_img' src='/image/czy_img.jpg'></image>
+      <view class='czy_title'>
+        <view class='title_name'>店外看版</view>
+        <view class='title_time'>2018-02-07 11:42:35</view>
+      </view>
+      <view class='shop_cart'>
+        <image class='shop_img' src='/image/shop_cart.png'></image>
+        <view class='shop_num'>1</view>
+      </view>
+    </view>
+    <view class='neirong_content'>
+      <image class='content_img' src='/image/czy_img.jpg'></image>
+    </view>
+  </view>
+</view>
+<!--下边关注店铺部分结束-->

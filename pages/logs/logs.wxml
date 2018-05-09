@@ -1,0 +1,51 @@
+<!--logs.wxml-->
+<wxs src="log.wxs" module="tools"/>
+<view> {{tools.msg}} </view>
+<view> {{tools.bar(tools.FOO)}} </view>
+<view class="container">
+  <!--上边最新发布开始  -->
+  <view class='new_issue'>
+    <view class='issue_title'>最新发布</view>
+    <view class='issue_content'>
+      <image class='content_img' src='/image/czy_img.jpg'></image>
+      <view class='name_time'>
+        <view class='issue_name'>试试</view>
+        <view class='issue_time'>2018-02-07</view>
+      </view>
+      <view class='issuse_see'>
+        <view class='num'>0</view>
+        <view class='jj'>人看过</view>
+      </view>
+    </view>
+  </view>
+  <!--上边最新发布结束-->
+
+  <!--三个按钮功能模块开始-->
+  <view class='btn_group'>
+    <view class='btn_list' bindtap='chooseimage'>
+      <image class='list_img' src='/image/write.png'></image>
+      <view class='list_name'>分类筛选</view>
+    </view>
+    <view class='btn_list'>
+      <image class='list_img' src='/image/video_yellow.png'></image>
+      <view class='list_name'>货品上架</view>
+    </view>
+    <view class='btn_list'>
+      <image class='list_img' src='/image/client_new.png'></image>
+      <view class='list_name'>发图分享</view>
+    </view>
+  </view>
+  <!--三个按钮功能模块结束-->
+
+  <!--添加的图片展示区域开始-->
+  <view class='img_group'>
+    <view class='item_list' wx:for="{{tempFilePaths}}" wx:for-item="image" wx:key="index">
+      <image class='img' src='{{image}}' mode='aspecFill'></image>
+      <view class='number'>02071703390 陈志远</view>
+      <view class='model'>长按编辑</view>
+    </view>
+  </view>
+  <!--添加的图片展示区域结束-->
+</view>
+<view>
+</view>

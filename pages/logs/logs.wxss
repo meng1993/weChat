@@ -1,0 +1,113 @@
+.container{
+  padding: 0;
+}
+.new_issue{
+  width: 750rpx;
+  height: 180rpx;
+  border-bottom: 1px solid lightgray;
+  text-indent: 30rpx;
+  /* display: none; */
+}
+.new_issue .issue_title{
+  width: 100%;
+  height: 30rpx;
+  color: lightgrey;
+  font-size: 25rpx;
+}
+.new_issue .issue_content{
+  width: 100%;
+  height: 150rpx;
+}
+.new_issue .issue_content .content_img{
+  width:120rpx;
+  height: 120rpx;
+  margin-top: 15rpx; 
+  margin-left: 30rpx;
+  float: left;
+}
+.new_issue .issue_content .name_time{
+  height: 150rpx;
+  float: left;
+  margin-left: 30rpx;
+}
+.new_issue .issue_content .name_time .issue_name{
+  height: 50%;
+  line-height: 75rpx;
+  font-size: 30rpx;
+}
+.new_issue .issue_content .name_time .issue_time{
+  height: 50%;
+  line-height: 75rpx;
+  font-size: 25rpx;
+  color: lightgrey;
+}
+.new_issue .issue_content .issuse_see{
+  width:auto;
+  height: 150rpx;
+  line-height: 150rpx;
+  float: right;
+  margin-right: 30rpx;
+}
+.new_issue .issue_content .issuse_see .num{
+  float: left;
+  color: red;
+}
+.new_issue .issue_content .issuse_see .jj{
+  float: left;
+}
+
+.btn_group{
+  width: 750rpx;
+  height: 150rpx;
+  margin: 30rpx;
+}
+.btn_group .btn_list{
+  width: 150rpx;
+  height: 150rpx;
+  float: left;
+}
+.btn_group .btn_list .list_img{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 25rpx;
+}
+.btn_group .btn_list .list_name{
+  width: 150rpx;
+  height: 30rpx;
+  text-align: center;
+  font-size: 25rpx;
+  color: #55b4ac;
+}
+
+.img_group{
+  width: 750rpx;
+  height: auto;
+}
+.img_group .item_list{
+  position: relative;
+  float: left;
+  width: 375rpx;
+  height: auto;
+}
+.img_group .item_list .img{
+  width: 335rpx;
+  height: 400rpx;
+  margin: 25rpx 20rpx;
+}
+.img_group .item_list .number{
+  font-size: 25rpx;
+  text-align: center;
+}
+.img_group .item_list .model{
+  position: absolute;
+  width: 335rpx;
+  height: 400rpx;
+  background-color: rgba(0,0,0,0.6);
+  top: 25rpx;
+  left: 20rpx;
+  color:white;
+  font-size:25rpx;
+  text-align:center;
+  line-height:400rpx;
+  display: none 
+}

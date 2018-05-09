@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  我的
+</view> -->
+<view class='loadpic' bindtap='chooseImage'>选择图片</view>
+<view class='showPic'>
+  <view wx:for="{{imagesList}}" wx:for-item="image" wx:key="index" class="previewimg">  
+      <image class='image' src="{{image}}" src="{{image}}" bindtap=""></image>  
+  </view>  
+</view>
